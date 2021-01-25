@@ -1,0 +1,63 @@
+{block content}
+<div class="default-page">
+    <h2>Dokončete svou objednávku.</h2>
+
+    <form n:name="sendOrderForm">
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="name">Jméno</label>
+                <input type="text" class="form-control" id="name" n:name="name" required>
+            </div>
+            <div class="col-md-2 mb-3">
+                <label for="surname">Příjmení</label>
+                <input type="text" class="form-control" id="surname" n:name="surname" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="city">Město</label>
+                <input type="text" class="form-control" id="city" n:name="city" required>
+            </div>
+            <div class="col-md-2 mb-3">
+                <label for="street">Ulice,Č.p</label>
+                <input type="text" class="form-control" id="street" n:name="street" required>
+            </div>
+            <div class="col-md-2 mb-3">
+                <label for="zip">PSČ</label>
+                <input type="text" class="form-control" id="zip" n:name="psc" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="phone">Telefon</label>
+                <input type="text" class="form-control" id="phone" n:name="phone" required>
+            </div>
+            <div class="col-md-2 mb-3">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" n:name="email" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="transport">Typ dopravy</label>
+                <select n:name="transport" >
+
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="transport">Typ platby</label>
+                <select n:name="payment" />
+
+            </div>
+        </div>
+
+
+        <button  n:name="send" class="btn btn-primary" type="submit">Odeslat objednávku</button>
+    </form>
+</div>

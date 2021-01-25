@@ -1,0 +1,19 @@
+{block content}
+<div class="default-page">
+    <h2>Jak vám můžeme pomoci ?</h2>
+    <form n:name="supportMessageForm">
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" n:name="email">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="message">Dotaz</label>
+                <textarea type="text" class="form-control" id="message" rows="5" n:name="message" />
+            </div>
+        </div>
+        <button n:name="send" class="btn btn-primary" type="submit">Odeslat dotaz</button>
+    </form>
+</div>

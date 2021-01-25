@@ -1,0 +1,42 @@
+{block content}
+<div class="default-page">
+    <h2 class="productDescriptionTitle">Váš Košík</h2>
+    {if (isset($_SESSION['shoppingCart']))}
+
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">Jméno produktu</th>
+                <th scope="col">Počet kusů</th>
+                <th scope="col">Cena</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            {foreach $cartProducts as $cartProduct}
+                <tr>
+                    <th scope="row">{$cartProduct["productName"]}</th>
+                    <td>{$cartProduct["quantity"]}</td>
+                    <td>{$cartProduct["price"]*$cartProduct["quantity"]} Kč</td>
+                    <form n:name="removeProductForm">
+                        <td>
+                            <input n:name="id" value="{$cartProduct["productId"]}">
+                            <input n:name="send">
+
+                        </td>
+                    </form>
+
+                </tr>
+            {/foreach}
+
+            </tbody>
+        </table>
+        <b><p>Celková cena: {$price} Kč</p></b>
+        <a n:href="Shoppingcart:productSend"><button class="btn">Pokračovat</button></a>
+    {else}
+        <p>Bohužel máte prázdný košík :( Můžete to ale změnit výběrem, jednoho z našich skvělých
+            <a n:href="Homepage:Default">produktů.</a></p>
+    {/if}
+
+</div>
+

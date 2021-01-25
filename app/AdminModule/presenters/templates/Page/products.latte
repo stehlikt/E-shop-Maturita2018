@@ -1,0 +1,33 @@
+{block content}
+<div class="default-page">
+    <br>
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID produktu</th>
+            <th scope="col">Jméno produktu</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $products as $product}
+            <tr>
+                <th scope="row">{$product['id']}</th>
+                <td>{$product['nazev']}</td>
+                <td>
+                    <a n:href="Page:editProduct $product->product_id">
+                        <button>Upravit</button>
+                    </a>
+                </td>
+                <td>
+                    <a n:href="Page:deleteProduct $product->product_id">
+                        <button>Odstranit</button>
+                    </a>
+                </td>
+            </tr>
+        {/foreach}
+
+        </tbody>
+    </table>
+</div>

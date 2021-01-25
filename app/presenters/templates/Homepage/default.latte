@@ -1,0 +1,48 @@
+{block content}
+<body>
+<div class="default-page">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Kategorie</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                {foreach $categories as $category}
+                    <li class="category nav-item">
+                        <a class="nav-link" n:href="Product:productsByCategory $category['id']">{$category['nazev']} </a>
+                    </li>
+                {/foreach}
+            </ul>
+        </div>
+    </nav>
+
+    <h2>Doporučeno pro vás:</h2>
+    <div class="container main-page">
+        <div class="row products-row">
+            {foreach $products as $product}
+                <div class="col-md-3 products border rounded">
+                    <a n:href="Product:default $product['product_id']">
+                        <h1 class="product-name">{$product['nazev']}</h1>
+                        <p class="product-description">{$product['popis']}</p>
+                        <p class="product-category">{$product['kategorie_produktu']}</p>
+                        <img style="max-height: 170px" src="{$product['obrazek']}" class="img-thumbnail">
+                    </a>
+                        {if $product->skladem==1}<p style="color:green">Skladem</p>{else}<p style="color:red">Vyprodáno</p>{/if}
+                        <p class="product-price">Cena s dph: {$product['cena']} Kč</p>
+                        {if $user->loggedIn}
+                        <form class="form-group" n:name="addToCartForm">
+                            <label  for="quantity">Počet kusů: </label>
+                            <input class="form-control" style="text-align:left;max-width: 20% !important;"
+                                   class="quantity-input" n:name="quantity">
+                            <input n:name="id" value="{$product->product_id}">
+                            <input n:name="price" value="{$product->cena}">
+                            <br>
+                            <input class="add-to-cart btn btn-success" n:name="send" value="Přidat do košíku">
+
+                        </form>
+                        {/if}
+                </div>
+            {/foreach}
+        </div>
+    </div>
+</>
+</body>
+

@@ -1,0 +1,16 @@
+<div class="web-name""><a n:href="Homepage:default">E-Shop</a></div>
+<ul class="user-bar">
+    <li {if $user->loggedIn}style="margin-top: 0.4%"{/if} class="user-bar-item"><a n:href="Support:default"> Technická podpora</a></li>
+    {if $user->loggedIn}
+        <li style="margin-top: 0.4%" class="user-bar-item"><a n:href="Order:default"> Moje objednávky</a></li>
+        {if ($_SESSION['permission']==1)}
+            <li style="margin-top: 0.4%" class="user-bar-item"><a n:href="Admin:Page:default"> Admin</a></li>
+        {/if}
+        <li style="margin-top: 0.4%" class="user-bar-item"><a n:href="Sign:out"> Odhlášení </a></li>
+        <li class="user-bar-item"><a n:href="Shoppingcart:default"><i style="font-size:30px;" class="fa fa-shopping-cart"></i></a></li>
+    {else}
+        <li class="user-bar-item"><a n:href="Sign:in"> Přihlášení </a></li>
+        <li class="user-bar-item"><a n:href="Register:default"> Registrace </a></li>
+    {/if}
+
+</ul>

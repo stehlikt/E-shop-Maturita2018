@@ -1,0 +1,48 @@
+{block content}
+<div class="default-page">
+
+    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Kategorie</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                {foreach $categories as $category}
+                    <li class="category nav-item">
+                        <a class="nav-link" n:href="Product:productsByCategory $category['id']">{$category['nazev']} </a>
+                    </li>
+                {/foreach}
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container main-page">
+        <div class="row products-row">
+            {foreach $products as $product}
+                <div class="col-md-3 products border rounded">
+                    <a n:href="Product:default $product['product_id']">
+                        <h1 class="product-name">{$product['nazev']}</h1>
+                        <p class="product-description">{$product['popis']}</p>
+                        <p class="product-category">{$product['kategorie_produktu']}</p>
+                        <img style="max-height: 170px" src="{$product['obrazek']}" class="img-thumbnail">
+                        <p class="product-price">{$product['cena']} KČ</p>
+
+                        {if $user->loggedIn}
+                            <form class="form-group" n:name="addToCartForm">
+                                <label for="quantity">Počet kusů: </label>
+                                <input class="form-control" style="text-align:left;max-width: 20% !important;"
+                                       class="quantity-input" n:name="quantity">
+                                <input n:name="id" value="{$product->product_id}">
+                                <input n:name="price" value="{$product->cena}">
+                                <br>
+                                <input class="add-to-cart btn btn-success" n:name="send" value="Přidat do košíku">
+
+                            </form>
+                        {/if}
+                </div>
+
+                    </a>
+                </div>
+            {/foreach}
+        </div>
+    </div>
+</div>

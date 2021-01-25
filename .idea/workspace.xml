@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19cab700-7fa3-4cc9-b41e-e8a96234e2e6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/detailOrder.latte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/orders.latte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/presenters/OrderPresenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/presenters/SupportPresenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/presenters/templates/Order/default.latte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/presenters/templates/Order/detail.latte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/presenters/templates/Support/default.latte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/css/smoothproducts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/images/products/1/samsung1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/images/products/1/samsung2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/images/products/1/samsung3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/js/smoothproducts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/js/smoothproducts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/E-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/E-shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/PagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/PagePresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/templates/@admin.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/templates/@admin.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/addNewProduct.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/addNewProduct.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/gallery/2/1520612080/meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/gallery/2/1520612093/meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/gallery/2/1520612100/meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1/1520610229/14915665_1149000318520647_4749855968318264262_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1/1520612707/meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1/1520613404/15781247_1837910656450281_8113001677207051561_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1/1520613595/15781247_1837910656450281_8113001677207051561_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1/1522546678/20294141_881738375315196_920054098442456678_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1/1522548692/15781613_571382503073061_6283433405275549950_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1/1522548770/15781613_571382503073061_6283433405275549950_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1/1522548907/15781613_571382503073061_6283433405275549950_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1/1522549044/21032446_1962813667293312_714149330675379852_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1520609888/18698500_1335181939851007_9089743468869237912_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/1520609906/18698500_1335181939851007_9089743468869237912_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/2/1520610607/18698500_1335181939851007_9089743468869237912_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/2/1520612239/meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/2/1520612347/20914729_701209313423712_7017869678768747461_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/2/1520612451/15965184_775829995901853_1490325439546144925_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/2/1520612542/meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/3/1522546910/20294141_881738375315196_920054098442456678_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/3/1522547535/15781613_571382503073061_6283433405275549950_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/4/1522545197/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products/4/1522548238/15781613_571382503073061_6283433405275549950_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/www/images/products2/1520612203/meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/FormFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/SignInFormFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms/SignUpFormFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/ProductPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/ProductPresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/ShoppingcartPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/ShoppingcartPresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/@layout.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Homepage/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Homepage/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Product/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Product/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Product/productsByCategory.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Product/productsByCategory.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Shoppingcart/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Shoppingcart/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Shoppingcart/productSend.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Shoppingcart/productSend.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/nav.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/nav.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/images/products/notebook.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/images/products/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/www/images/products/1/1522548462/15781247_1837910656450281_8113001677207051561_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/www/images/products/5/1522547943/19025323_10155315043001788_8676017259768590154_o.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Authenticator has not been set.</find>
+      <find>getUsername</find>
+      <find>/images/products</find>
+      <find>uziv</find>
+      <find>image</find>
+      <find>glyphicon</find>
+      <find>contain</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\XAMPP\htdocs\Stehlik_eshop</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/presenters/templates/Product/productsByCategory" />
+        <option value="$PROJECT_DIR$/app/presenters/ShoppingCartPresenter.php" />
+        <option value="$PROJECT_DIR$/app/config/config.neon" />
+        <option value="$PROJECT_DIR$/app/Model/User.php" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/AdminPresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/RegisterPresenter.php" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/BasePresenter.php" />
+        <option value="$PROJECT_DIR$/app/router/RouterFactory.php" />
+        <option value="$PROJECT_DIR$/app/presenters/BasePresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/header.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/SignPresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Register/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Sign/in.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Shoppingcart/thankYou.latte" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/userManagment.latte" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/editProduct.latte" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/products.latte" />
+        <option value="$PROJECT_DIR$/app/bootstrap.php" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/addNewProduct.latte" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/templates/@admin.latte" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Orders/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/OrdersPresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/nav.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Shoppingcart/productSend.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/ShoppingcartPresenter.php" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/orders.latte" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/detailOrder.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/OrderPresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Order/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Order/detail.latte" />
+        <option value="$PROJECT_DIR$/app/AdminModule/presenters/PagePresenter.php" />
+        <option value="$PROJECT_DIR$/www/fancybox/jquery.fancybox.css" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/@layout.latte" />
+        <option value="$PROJECT_DIR$/www/css/smoothproducts.css" />
+        <option value="$PROJECT_DIR$/app/presenters/ProductPresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Product/productsByCategory.latte" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Homepage/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Support/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/SupportPresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Shoppingcart/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Product/default.latte" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/nette/reflection" />
+      <path value="$PROJECT_DIR$/vendor/nette/di" />
+      <path value="$PROJECT_DIR$/vendor/dibi/dibi" />
+      <path value="$PROJECT_DIR$/vendor/nette/neon" />
+      <path value="$PROJECT_DIR$/vendor/nette/tester" />
+      <path value="$PROJECT_DIR$/vendor/nette/component-model" />
+      <path value="$PROJECT_DIR$/vendor/nette/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/nette/caching" />
+      <path value="$PROJECT_DIR$/vendor/nette/finder" />
+      <path value="$PROJECT_DIR$/vendor/nette/php-generator" />
+      <path value="$PROJECT_DIR$/vendor/nette/database" />
+      <path value="$PROJECT_DIR$/vendor/nette/robot-loader" />
+      <path value="$PROJECT_DIR$/vendor/nette/security" />
+      <path value="$PROJECT_DIR$/vendor/nette/application" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/nette/http" />
+      <path value="$PROJECT_DIR$/vendor/nette/forms" />
+      <path value="$PROJECT_DIR$/vendor/latte/latte" />
+      <path value="$PROJECT_DIR$/vendor/tracy/tracy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nette/mail" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="1nUUvw5l0GFyGRVXX7wjjTsk2x1" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Stehlik_eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stehlik_eshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stehlik_eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stehlik_eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stehlik_eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stehlik_eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminModule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stehlik_eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stehlik_eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminModule" type="462c0819:PsiDirectoryNode" />
+              <item name="presenters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stehlik_eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stehlik_eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stehlik_eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stehlik_eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stehlik_eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stehlik_eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stehlik_eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stehlik_eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="presenters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stehlik_eshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stehlik_eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="presenters" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\Stehlik_eshop\www\images\products\1" />
+      <recent name="D:\XAMPP\htdocs\Stehlik_eshop\www\js" />
+      <recent name="D:\XAMPP\htdocs\Stehlik_eshop\www\images" />
+      <recent name="D:\XAMPP\htdocs\Stehlik_eshop\www\css" />
+      <recent name="D:\XAMPP\htdocs\Stehlik_eshop\www" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19cab700-7fa3-4cc9-b41e-e8a96234e2e6" name="Default" comment="" />
+      <created>1515969499783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515969499783</updated>
+      <workItem from="1515969501207" duration="754000" />
+      <workItem from="1515970942596" duration="3000" />
+      <workItem from="1517262649624" duration="4553000" />
+      <workItem from="1517336410076" duration="3773000" />
+      <workItem from="1517353338887" duration="2629000" />
+      <workItem from="1517392326872" duration="240000" />
+      <workItem from="1519932942210" duration="1747000" />
+      <workItem from="1519935453514" duration="1371000" />
+      <workItem from="1519983427949" duration="651000" />
+      <workItem from="1520354912680" duration="2278000" />
+      <workItem from="1520360036174" duration="1123000" />
+      <workItem from="1520550112781" duration="4639000" />
+      <workItem from="1520604094331" duration="15030000" />
+      <workItem from="1521471960941" duration="6178000" />
+      <workItem from="1522349693415" duration="5578000" />
+      <workItem from="1522363198403" duration="7807000" />
+      <workItem from="1522541760360" duration="6754000" />
+      <workItem from="1522611715935" duration="17602000" />
+      <workItem from="1522630390997" duration="6956000" />
+      <workItem from="1522663485859" duration="18017000" />
+      <workItem from="1611007589616" duration="1208000" />
+      <workItem from="1611010838665" duration="4183000" />
+      <workItem from="1611444398087" duration="4990000" />
+      <workItem from="1611451356673" duration="3326000" />
+      <workItem from="1611531521981" duration="24000" />
+      <workItem from="1611540571658" duration="1254000" />
+      <workItem from="1611545618204" duration="337000" />
+      <workItem from="1611547625542" duration="11000" />
+      <workItem from="1611547649038" duration="17000" />
+      <workItem from="1611547693424" duration="511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="114208000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32875264" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32875264" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/images/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/images/1_tb.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/images/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/images/2_tb.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/images/3_tb.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/images/4.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/images/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/images/6.jpg" />
+    <entry file="file://$PROJECT_DIR$/www/images/6_tb.jpg" />
+    <entry file="file://$PROJECT_DIR$/../../../Smoothproducts-master/index.html" />
+    <entry file="file://$PROJECT_DIR$/../../../simpleGal-master/demo/index.html" />
+    <entry file="file://$PROJECT_DIR$/www/js/jquery.simpleGal.js" />
+    <entry file="file://$PROJECT_DIR$/../../../prodigal-master/example.html" />
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Shoppingcart/productSend.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/detailOrder.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Order/detail.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Order/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/templates/Page/orders.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="33" column="116" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../test/index.html" />
+    <entry file="file://$PROJECT_DIR$/www/css/lightslider.css" />
+    <entry file="file://$PROJECT_DIR$/www/js/lightslider.js" />
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/PagePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <marker date="1522666354015" expanded="true" signature="477:659" ph="SELECT p.naz... produkt" />
+            <marker date="1522666354015" expanded="true" signature="477:673" ph="SELECT p.naz... produkt" />
+            <marker date="1522666354015" expanded="true" signature="763:802" ph="DELETE FROM " />
+            <marker date="1522666354015" expanded="true" signature="840:870" ph="DELETE FROM " />
+            <marker date="1522666354015" expanded="true" signature="1086:1109" ph="SELECT * FRO... kategorie" />
+            <marker date="1522666354015" expanded="true" signature="2203:2224" ph="INSERT INTO " />
+            <marker date="1522666354015" expanded="true" signature="2696:2717" ph="INSERT INTO " />
+            <marker date="1522666354015" expanded="true" signature="2898:2939" ph="UPDATE produ... " />
+            <marker date="1522666354015" expanded="true" signature="3484:3516" ph="SELECT * FRO... produkt" />
+            <marker date="1522666354015" expanded="true" signature="3701:3724" ph="SELECT * FRO... kategorie" />
+            <marker date="1522666354015" expanded="true" signature="5237:5256" ph="SELECT * FRO... users" />
+            <marker date="1522666354015" expanded="true" signature="5350:5378" ph="DELETE FROM " />
+            <marker date="1522666354015" expanded="true" signature="5521:5564" ph="UPDATE users... " />
+            <marker date="1522666354015" expanded="true" signature="5707:5750" ph="UPDATE users... " />
+            <marker date="1522666354015" expanded="true" signature="6431:6455" ph="SELECT * FRO... objednavky" />
+            <marker date="1522666354015" expanded="true" signature="6539:6589" ph="UPDATE objed... " />
+            <marker date="1522666354015" expanded="true" signature="6628:6667" ph="SELECT email... objednavky" />
+            <marker date="1522666354015" expanded="true" signature="7258:7308" ph="UPDATE objed... " />
+            <marker date="1522666354015" expanded="true" signature="7347:7386" ph="SELECT email... objednavky" />
+            <marker date="1522666354015" expanded="true" signature="7949:8061" ph="SELECT p.id,... pro_obj" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Vertical-jQuery-Product-Photo-Gallery-PhotoGallery/index.html" />
+    <entry file="file://$PROJECT_DIR$/www/fancybox/jquery.fancybox.css" />
+    <entry file="file://$PROJECT_DIR$/www/js/smoothproducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1492093456000" expanded="true" signature="1162:1197" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dibi/dibi/src/Dibi/dibi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/smoothproducts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Homepage/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Support/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#34#44#0#PHP" expanded="true" />
+            <marker date="1522678379222" expanded="true" signature="291:506" ph="SELECT p.naz... produkt" />
+            <marker date="1522678379222" expanded="true" signature="291:530" ph="SELECT p.naz... produkt" />
+            <marker date="1522678379222" expanded="true" signature="598:621" ph="SELECT * FRO... kategorie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/SupportPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Shoppingcart/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+          <folding>
+            <element signature="n#form#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" />
+            <element signature="n#td#0;n#form#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/ProductPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <marker date="1522678024623" expanded="true" signature="239:262" ph="SELECT * FRO... kategorie" />
+            <marker date="1522678024623" expanded="true" signature="369:553" ph="SELECT p.naz... produkt" />
+            <marker date="1522678024623" expanded="true" signature="677:788" ph="SELECT *,DAT... recenze" />
+            <marker date="1522678024623" expanded="true" signature="863:904" ph="SELECT image... gallery" />
+            <marker date="1522678024623" expanded="true" signature="1052:1278" ph="SELECT p.naz... produkt" />
+            <marker date="1522678024623" expanded="true" signature="1761:1780" ph="INSERT INTO recenze... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Product/productsByCategory.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/ShoppingcartPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="147" column="28" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+          <folding>
+            <element signature="e#118#128#0#PHP" expanded="true" />
+            <marker date="1522637009231" expanded="true" signature="952:988" ph="SELECT nazev... produkt" />
+            <marker date="1522637009231" expanded="true" signature="1067:1102" ph="SELECT cena produkt" />
+            <marker date="1522637009231" expanded="true" signature="4377:4399" ph="INSERT INTO objednavky... " />
+            <marker date="1522637009231" expanded="true" signature="4717:4736" ph="INSERT INTO pro_obj... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/AdminPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Product/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/OrderPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" selection-start-line="36" selection-end-line="37" />
+          <folding>
+            <marker date="1522665240476" expanded="true" signature="318:359" ph="SELECT * FRO... objednavky" />
+            <marker date="1522665240476" expanded="true" signature="463:513" ph="UPDATE objed... " />
+            <marker date="1522665240476" expanded="true" signature="552:597" ph="SELECT email... objednavky" />
+            <marker date="1522665240476" expanded="true" signature="1143:1255" ph="SELECT p.id,... pro_obj" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Authenticator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#35#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/FormFactory.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/SignInFormFactory.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms/SignUpFormFactory.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/UserManager.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/nav.latte">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/SignPresenter.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/RegisterPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding>
+            <element signature="e#34#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1520554099186" expanded="true" signature="106:125" ph="INSERT INTO " />
+            <marker date="1520554099186" expanded="true" signature="218:267" ph="SELECT `id` " />
+            <marker date="1520554099186" expanded="true" signature="365:411" ph="SELECT `user... " />
+            <marker date="1520554099186" expanded="true" signature="506:549" ph="SELECT `emai... " />
+            <marker date="1520554099186" expanded="true" signature="660:710" ph="SELECT permi... " />
+            <marker date="1520554099186" expanded="true" signature="817:863" ph="SELECT `pass... " />
+            <marker date="1520554099186" expanded="true" signature="974:1047" ph="SELECT `id`,... " />
+            <marker date="1520554099186" expanded="true" signature="1158:1234" ph="SELECT `id`,... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+{block content}
+<div class="default-page">
+
+    <br>
+    <form n:name="addNewProductForm" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="name">Název</label>
+                <input type="text" class="form-control" id="name" n:name="name">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="description">Popisek</label>
+                <textarea type="text" class="form-control" id="description" n:name="description" />
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-1 mb-3">
+                <label for="price">Cena</label>
+                <input type="text" class="form-control" id="price" n:name="price">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="name">Kategorie</label>
+                <br>
+                <select n:name="category">
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="obrazek">Nahledovy obrazek</label>
+                <input type="file" class="form-control" id="obrazek" n:name="obrazek" multiple>
+            </div>
+        </div>
+        <button n:name="send" class="btn btn-primary" type="submit">Přidat nový produkt</button>
+    </form>
+
+</div>

@@ -1,0 +1,41 @@
+{block content}
+<div class="default-page">
+    <br>
+    <form n:name="editProductForm">
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="name">Název</label>
+                <input type="text" class="form-control" id="name" n:name="name">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="name">Popisek</label>
+                <textarea type="text" class="form-control" id="description" n:name="description" />
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="name">Cena</label>
+                <input type="text" class="form-control" id="price" n:name="price">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="name">Skladnost</label>
+                <br>
+                <select n:name="stock">
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-2 mb-3">
+                <label for="name">Kategorie</label>
+                <br>
+                <select n:name="category">
+                </select>
+            </div>
+        </div>
+        <button n:name="send" class="btn btn-primary" type="submit">Upravit produkt</button>
+    </form>
+</div>

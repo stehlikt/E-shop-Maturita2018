@@ -1,0 +1,78 @@
+{block content}
+
+<div class="default-page">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Kategorie</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                {foreach $categories as $category}
+                    <li class="category nav-item">
+                        <a class="nav-link" n:href="Product:productsByCategory $category['id']">{$category['nazev']} </a>
+                    </li>
+                {/foreach}
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid product-page">
+        <div class="row">
+            <div class="col-md-8 product">
+                <h1 class="product-info-name">{$product->nazev}</h1>
+                <p class="product-info-description">{$product->popis}</p>
+                <p class="product-info-category">{$product->kategorie_produktu}</p>
+                {if $product->skladem==1}<p style="color:green">Skladem</p>{else}<p style="color:red">Vyprodáno</p>{/if}
+
+                <div class="sp-wrap">
+                    {foreach $images as $image}
+                    <a href="{$image['image']}"><img class="img-thumbnail" src="{$image['image']}" alt=""></a>
+                    {/foreach}
+                </div>
+
+                <br>
+
+                <p class="product-info-price">Cena s DPH: {$product->cena} Kč</p>
+                {if $user->loggedIn}
+                    <form class="form-group" n:name="addToCartForm">
+                        <label for="quantity">Počet kusů: </label>
+                        <input class="form-control" style="text-align:left;width:4%;"
+                               class="quantity-input" n:name="quantity">
+                        <input n:name="id" value="{$product->product_id}">
+                        <input n:name="price" value="{$product->cena}">
+                        <input class="add-to-cart btn btn-success" n:name="send" value="Přidat do košíku">
+
+                    </form>
+                {else}
+                    <span>Nemůžete provádět nákup bez <a n:href="Sign:in">přihlášení.</a></span>
+                {/if}
+            </div>
+        </div>
+        <br>
+        <div class="product-review">
+            {if $user->loggedIn}<br>
+            <form class="form-group" n:name="reviewForm">
+                <label for="quantity">Recenze </label>
+                <textarea style="max-width: 25%" class="form-control" rows="5" n:name="content" />
+                <input class="add-to-cart btn" n:name="send" value="Odeslat recenzi">
+
+            </form>
+            <br>
+            <h3 style="text-decoration: underline">Recenze</h3>
+            {foreach $reviews as $review}
+                <p>Uživatel <span >{$review['user']}:</span></p>
+                <p>{$review['recenze']}</p>
+                <p>{$review['DATUM_RECENZE']}</p>
+            {/foreach}
+        </div>
+        {else}
+        <p>Pro přidávaní recenzí musíte být <a n:href="Sign:in">přihlášen.</a></p>{/if}
+    </div>
+
+</div>
+
+
+    <script type="text/javascript">
+        /* wait for images to load */
+        $(window).load(function() {
+            $('.sp-wrap').smoothproducts();
+        });
+    </script>

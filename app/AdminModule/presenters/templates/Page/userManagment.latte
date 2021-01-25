@@ -1,0 +1,43 @@
+{block content}
+<div class="default-page">
+<br>
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Email</th>
+            <th scope="col">Uživatelksé jméno</th>
+            <th scope="col">Oprávnění</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $users as $uzivatel}
+            <tr>
+                <th scope="row">{$uzivatel['id']}</th>
+                <td>{$uzivatel['email']}</td>
+                <td>{$uzivatel['username']}</td>
+                <td>{if $uzivatel['permission_id']==0}Uživatel{else}Admin{/if}</td>
+                <td>
+                    <a n:href="Page:deleteUser $uzivatel['id']">
+                        <button>Odstranit</button>
+                    </a>
+                </td>
+                <td>
+                    {if $uzivatel['permission_id']==0}
+                        <a n:href="Page:assignAdminPermission $uzivatel['id']">
+                            <button>Přiřadit práva admina</button>
+                        </a>
+                    {else}
+                        <a n:href="Page:removeAdminPermission $uzivatel['id']">
+                            <button>Odebrat práva admina</button>
+                        </a>
+                    {/if}
+                </td>
+            </tr>
+        {/foreach}
+
+        </tbody>
+    </table>
+</div>

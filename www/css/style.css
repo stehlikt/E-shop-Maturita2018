@@ -1,0 +1,142 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+.web-name a{
+    font-size:25px;
+    float: left;
+    margin-left: 5%;
+    color: rgba(0, 0, 0, 0.5) !important;
+
+}
+.admin-page-name a{
+    margin-left: 5%;
+    font-size:25px;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+/*MAIN PAGE*/
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    height: 100% !important;
+    background-color: white !important;
+    padding: 0;
+    margin: 0;
+    font-family: "Source Sans Pro","Arial CE",Arial,"Helvetica CE",Helvetica,sans-serif !important;
+}
+
+.default-page {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.user-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.user-bar-item {
+    display: list-item;
+    list-style: none;
+    margin-right: 1%;
+}
+
+/* Categories */
+.categories {
+    list-style-type: none;
+    color: #009CD3;
+    text-transform: uppercase;
+}
+
+.category:first-letter {
+    text-transform: uppercase;
+}
+
+/* Products */
+.products {
+    font-family: OpenSans;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+.product-image {
+    max-width: 15%;
+
+}
+
+.img-thumbnail {
+    border: none !important;
+}
+
+.product-name {
+    font-size: 17px;
+}
+
+.product-description {
+    font-size: 15px;
+}
+
+.product-category {
+    font-size: 15px;
+}
+.product-category:first-letter{
+    text-transform: uppercase;
+}
+
+/* Product Info */
+
+.product-info-name {
+    padding-top: 2.5%;
+    font-size: 25px;
+}
+
+.product-info-description{
+
+}
+
+.product-info-category{
+    color: #217BB8;
+}
+
+.product-info-price{
+
+}
+
+.add-to-cart{
+    margin-top: 1%;
+}
+
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+
+.comments-list .media{
+    border-bottom: 1px dotted #ccc;
+}
+
+/* ADMIN */
+.admin-menu-button{
+    margin-top: 1%;
+}
+/* PRODUCT GALLERY */
+
+
+/* RESPO */
+
+@media only screen and (max-device-width: 1400px) {
+
+}

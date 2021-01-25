@@ -1,0 +1,27 @@
+{block content}
+
+
+<div class="default-page">
+    <br>
+    <a n:href="Order:default"><button class="btn">Zpátky na přehled objednávek</button></a>
+    <br>
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID produktu</th>
+            <th scope="col">Název</th>
+            <th scope="col">Počet kusů</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $order_products as $product}
+        <tr>
+            <th scope="row">{$product['id']}</th>
+            <td>{$product['nazev']}</td>
+            <td>{$product['quantity']}</td>
+        </tr>
+        {/foreach}
+
+        </tbody>
+    </table>
+</div>
